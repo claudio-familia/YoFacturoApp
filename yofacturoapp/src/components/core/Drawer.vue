@@ -42,7 +42,7 @@
                 :active-class="color"                
                 class="v-list-item"
                 >
-                <v-list-item-icon>
+                <v-list-item-icon class="v-list__tile__action">
                     <v-icon v-text="link.icon"></v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
@@ -145,6 +145,14 @@ export default {
   }
 
   #app-drawer .v-image__image--cover{
-    box-shadow: inset 3px 3px 300px 200px rgba(0,0,0,0.56);
+    box-shadow: inset 3px 3px 300px 200px rgba(34, 29, 29, 0.692);
+  }
+
+  #app-drawer .v-list .v-list-item {
+    border-radius: 5px;
+  }
+
+  .theme--dark.v-list-item--active:before, .theme--dark.v-list-item--active:hover:before, .theme--dark.v-list-item:focus:before {
+    border-radius: 5px;
   }
 </style>

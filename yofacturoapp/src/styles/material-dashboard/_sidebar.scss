@@ -26,6 +26,7 @@
           font-size: $font-size-general !important;
           font-weight: $font-weight-lighter;
           padding: 0;
+          border-radius: 5px
         }
       }
 
@@ -43,7 +44,7 @@
       }
 
       .v-list__tile.v-list__tile--active {
-        @include shadow-big-color($brand-success);
+        @include shadow-big-color($brand-success);     
       }
     }
 
@@ -58,7 +59,7 @@
       min-width: unset;
     }
 
-    .v-list__tile__title {
+    .title{
       line-height: $line-height;
       padding: $padding-avatar-title 0;
       height: unset;

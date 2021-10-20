@@ -1,0 +1,62 @@
+# compiled output
+/api/dist
+/api/node_modules
+
+/webapp/dist
+/webapp/node_modules
+
+
+# Logs
+/webapp/logs
+/api/logs
+
+/webapp/*.log
+/api/*.log
+
+/webapp/npm-debug.log*
+/api/npm-debug.log*
+
+/webapp/pnpm-debug.log*
+/api/pnpm-debug.log*
+
+/webapp/yarn-debug.log*
+/api/yarn-debug.log*
+
+/webapp/yarn-error.log*
+/api/yarn-error.log*
+
+/webapp/lerna-debug.log*
+/api/lerna-debug.log*
+
+# OS
+/webapp/.DS_Store
+.DS_Store
+
+# Tests
+/coverage
+/webapp/coverage
+
+/webapp/.nyc_output
+/.nyc_output
+
+# IDEs and editors
+/webapp/.idea
+
+/webapp/.project
+
+/webapp/.classpath
+
+/webapp/.c9/
+
+/webapp/*.launch
+
+/webapp/.settings/
+
+/webapp/*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

@@ -4,6 +4,7 @@ import { NavbarComponent } from './layout/navbar/navbar.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { BlankComponent } from './layout/blank/blank.component';
 import { AuthModule } from '@auth0/auth0-angular';
+import { UserMenuComponent } from './components/user-menu/user-menu.component';
 
 
 
@@ -11,14 +12,15 @@ import { AuthModule } from '@auth0/auth0-angular';
   declarations: [
     NavbarComponent,
     FooterComponent,
-    BlankComponent
+    BlankComponent,
+    UserMenuComponent
   ],
   imports: [
     CommonModule,
     AuthModule.forRoot({
       domain: 'dev-acddag2p.us.auth0.com',
       clientId: 'z6SRkmw3AGX4AftU0vSVJdezFdwzpBTV'
-    }),
+    }),    
   ],
   exports: [
     NavbarComponent,

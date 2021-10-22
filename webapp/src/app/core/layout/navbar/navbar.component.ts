@@ -7,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  menu: any[] = [
+    {
+      name: 'Dashboard',
+      url: '',
+    },
+    {
+      name: 'Inventory',
+      url: '',
+    },
+  ]
+
   constructor() { }
 
   ngOnInit(): void {
